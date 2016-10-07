@@ -1,6 +1,6 @@
 # Linux_Home_Project
 ## Change ip script
-this script wil atomaticaly change the ip of your Changeip dynamic dns using the rinker script
+this script wil automaticaly change the ip of your Changeip dynamic dns using the rinker script
 ### building
 ~~~~
 docker build -t YOURNAME/changeip:latest
