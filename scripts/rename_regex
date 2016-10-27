@@ -1,0 +1,1 @@
+find . -name '*:*' -exec rename -n s/://g {} \;
