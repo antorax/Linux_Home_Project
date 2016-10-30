@@ -7,19 +7,44 @@
             <title>PORTAL</title>
              <meta name="description" content="This is my portal page">
              <meta name="author" content="kashian">
+			 
+			 
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-             <link rel="stylesheet" href="css/styles.css?v=1.0">
-                
+			<!-- jQuery library -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+			<!-- Latest compiled JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+			
+			<style>
+			body {
+				background-color: black;
+			}
+
+			h1,p {
+				color: #999999;
+			} 
+			</style>
     </head>
 
     <body>
-        <h1>Portal page</h1>
-        <h3>Welcom to the portal</h3>
+		<div style="width:800px; margin-right: auto; margin-left: auto;">
+				<img src="img/portal.png" alt="PORTAL">
+		</div>
         </br>
-        <p>choose the webpage you need</p>
-        <ul>
-            <li><a href="localhost/omv">Open Media Vault </a></li>
-            <li><a href="localhost/sr">Sickrage</a></li>
-        </ul>
+		<div class="row">
+		  <div class="col-sm-2">
+		  <a href="localhost/omv">
+		  <img src="img/omv.png" class="img-circle" alt="OpenMediaVault" width="150" height="150">
+		  </a>
+		  </div>
+		   <div class="col-sm-2">
+		   <a href="localhost/sr">
+		  <img src="img/sr.png" class="img-circle" alt="Sickrage" width="150" height="150">
+		  </a>
+		  </div>
+		</div>
     </body>
 </html>
